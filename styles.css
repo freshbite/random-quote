@@ -1,0 +1,41 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 179, 153);
+    transition: background 0.5s ease-in-out 0s;
+}
+
+#central{
+    display: flex;
+    width: 500px;
+    height: fit-content;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 20px 20px;
+    border-radius: 5px;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: white;
+}
+
+#result{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.75em;
+}
+
+#autori{
+    padding: 14px 0px;
+}
+
+#Cauta{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    transition: background 0.5s ease-in-out 0s;
+}
